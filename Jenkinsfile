@@ -25,7 +25,7 @@ pipeline {
             steps {
                 bat '''
                 if not exist C:\\deploy-demo mkdir C:\\deploy-demo
-                copy index.html C:\\deploy-demo
+                copy file_f1.html C:\\deploy-demo
                 '''
             }
         }
